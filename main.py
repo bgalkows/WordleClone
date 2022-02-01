@@ -43,6 +43,10 @@ if len(examples) > 0:
 """
 
 if __name__ == '__main__':
+    print("Guess the right five letter word!")
+    print("Correct letters in the right spot are " + bcolors.OKGREEN + "green"+bcolors.ENDC + ", while correct letters")
+    print("in the wrong spot are "+ bcolors.OKBLUE + "blue" + bcolors.ENDC + ".")
+
     guessLayers = ['[ ] [ ] [ ] [ ] [ ]'] * 5
     currentGuess = ''
     selectedWord = selectedWord.upper()
